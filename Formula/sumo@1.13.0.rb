@@ -38,7 +38,7 @@ class SumoAT1130 < Formula
   # workaround due to dependency gdal -> numpy -> openblas -> gcc (originally gfortran)
   # (use 'brew deps --tree sumo' to see dependencies of higher levels)
   # also see: https://github.com/davidchall/homebrew-hep/issues/28
-  cxxstdlib_check :skip
+  #cxxstdlib_check :skip
 
   def install
     # cf. https://rubydoc.brew.sh/Formula.html#std_cmake_args-instance_method
