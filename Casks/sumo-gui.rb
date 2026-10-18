@@ -2,8 +2,7 @@ cask "sumo-gui" do
   version :latest
   sha256 :no_check
 
-  url "https://sumo.dlr.de/daily/sumo-gui-macos-git.zip",
-      verified: "sumo.dlr.de/daily/"
+  url "https://sumo.dlr.de/daily/sumo-gui-macos-git.zip"
   name "sumo-gui-macos"
   desc "Simulation of Urban MObility GUI"
   homepage "https://www.eclipse.org/sumo"
